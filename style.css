@@ -1,0 +1,194 @@
+body{
+    background:rgb(238, 238, 238);
+    background-repeat: no-repeat;
+    text-align: center;
+}
+#head{
+    background-color: rgb(34, 40, 49);
+    width: 100%;
+    top: 0;
+    left: 0;
+    margin-top:0px;
+
+}
+.heading{
+    color: white;
+    letter-spacing: 9px;
+    line-height: 2;
+    margin: 0;
+    padding:0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+#p1 {
+    font-size: 42px;
+    color: rgb(57, 62, 70);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#list_of_objects{
+    color: rgb(24, 29, 49);
+}
+.hr{
+    border-top: 2px rgb(0, 173, 181) solid;
+    width: 90%;
+}
+.hr2{
+    border-top: 2px rgb(24, 29, 49) solid;
+    width: 90%;
+}
+#camera{
+    width: 360px;
+    height: 310px;
+    border: solid rgb(34, 40, 49) 2px;
+    background: whitesmoke; 
+} 
+#camera_div{
+    background: rgb(34, 40, 49);
+    border-top-right-radius:20px ;
+    border-top-left-radius:20px ;
+    border-top: ridge rgb(34, 40, 49);
+    border: ridge rgb(34, 40, 49) 2px;
+    width: min-content;
+    margin-top: 400px;
+    width: 360px;
+    height:400px;
+}
+.capture{
+    width: 200px;
+    height: 55px;
+    font-size: 21px;
+    background-color:rgb(34, 40, 49); 
+    color: white;
+}
+.capture:hover{
+    width: 220px;
+    height: 65px;
+    font-size: 24px;
+    background-color:white; 
+    color: rgb(34, 40, 49);
+    border: 2px solid rgb(34, 40, 49);
+}
+.identifier{
+    width: 200px;
+    height: 55px;
+    font-size: 21px;
+    background-color:rgb(34, 40, 49); 
+    color: white;
+}
+.identifier:hover{
+    width: 220px;
+    height: 65px;
+    font-size: 24px;
+    background-color:white; 
+    color: rgb(34, 40, 49);
+    border: 2px solid rgb(34, 40, 49);
+}
+#result{
+    width: 360px;
+    height: 340px;
+    border: solid rgb(34, 40, 49) 2px;
+    background: whitesmoke;
+}
+#capture_image{
+    width: 350px;
+    height: 330px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    margin-top:80px;
+}
+.img1{
+    width: 180px;
+    height: 170px;
+    border: solid rgb(34, 40, 49) 2px;
+    background: whitesmoke;
+    float: left;
+    border-top-left-radius: 20px;
+}
+.img2{
+    width: 180px;
+    height: 170px;
+    border: solid rgb(34, 40, 49) 2px;
+    background: whitesmoke;
+    float: left;
+}
+.img3{
+    width: 180px;
+    height: 170px;
+    border: solid rgb(34, 40, 49) 2px;
+    background: whitesmoke;
+    float: left;
+    border-bottom-left-radius: 20px;
+}
+.img4{
+    width: 180px;
+    height: 170px;
+    border: solid rgb(34, 40, 49) 2px;
+    background: whitesmoke;
+    float: left;
+}
+
+#Father{
+    width: 50%;
+    float: left;
+    margin-bottom: 20px;
+    border: solid gray 2px;
+    background-color: rgb(34, 40, 49) ;
+    border-top-left-radius: 20px;
+    vertical-align: center;
+}
+#Mother{
+    width: 50%;
+    float: right;
+    margin-bottom: 20px;
+    border: solid gray 2px;
+    background-color: rgb(34, 40, 49) ;;
+    border-top-right-radius: 20px;
+}
+#Myself{
+    width: 50%;
+    float: left;
+    border: solid gray 2px;
+    background-color: rgb(34, 40, 49);
+    border-bottom-left-radius: 20px;
+}
+#Sister{
+    width: 50%;
+    float: right;
+    border: solid gray 2px;
+    background-color: rgb(34, 40, 49);
+    border-bottom-right-radius: 20px;
+}
+a:hover{
+    font-size: 23px;
+    text-decoration: none;
+    color: white;
+}
+#Obj{
+    border: 2px solid rgb(34, 40, 49);
+    border-radius: 20px;
+    margin-top: 50px;
+    width: 75%;
+    padding: 10px;
+    vertical-align: left;
+    background-color: white;
+} 
+#accuracy{
+    border: 2px solid rgb(34, 40, 49);
+    border-radius: 20px;
+    margin-bottom: 100px;
+    margin-top: 30px;
+    width: 75%;
+    padding: 10px;
+    vertical-align:left;
+    background-color: white;
+}
+#object_result{
+    color: black;
+    font-weight: bolder;
+}
+#accuracy_result{
+    color: black;
+    font-weight: bolder;
+}
